@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,10 +16,19 @@ html {
 
 }
 
+.clearfix {zoom : 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 .row {
-    width: 1400px;
+    width: 1200px;
     text-align: left;
-    margin: auto;
+    margin: 0px auto;
 }
 
 /******************  Header  *********************/
@@ -29,6 +39,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+     background-attachment: fixed;
 
 }
 
@@ -36,7 +47,7 @@ header {
 
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 1100px;
+    width: 1200px;
     top: 50%;
     left: 50%;
 
@@ -207,6 +218,9 @@ h3 {
 /******************  SECTION  ************/
 
 
+.section-meal {
+    padding-bottom: 50px;
+}
 
 ion-icon {
     color: orange;
@@ -224,21 +238,27 @@ ion-icon {
 
 }
 
+.setWidth {
+    width: 100%;
+}
+
 .long-copy {
     padding: 10px 0px;
 
 }
 .meal-showcase {
     width: 95%;
-    margin: 30px auto;
+    margin: 20 auto;
     list-style: none;
+    
 }
 .meal-showcase li {
   
     display: block;
-    width: 24%;
-    padding: 5px;
+    width: 25%;
+    padding: 0px 10px 0px 10px;
     float: left;
+    
 }
 
 .meal-image {
@@ -264,11 +284,139 @@ ion-icon {
 }
 
 
-
+.step-box:first-child {
+    text-align: center;
+    padding-right: 5px;
+}
+.step-box:last-child {
+    padding-right: 25px;
+    padding-left: 20px;
+    margin-top: 100px;
+}
 
 .img-phone {
-    width: 50%;
-    margin: 20px auto;
-    padding-left: 30px;
-    height: auto;
+    width: 40%;
 }
+
+.round-box {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    display: block;
+    color: orange;
+       
+}
+.step-word{
+    color: black;
+    padding-left: 30px;
+    height: 30px;
+    margin-left: 50px;
+    height: 55px;
+    width: 70%;
+    overflow: hidden;
+    padding-top: 8px;
+    
+    
+    
+}
+.step-box-main {
+    width: 100%;
+    height: 80px;;
+}
+
+
+
+.city-small-image {
+    width: 15px;
+    color: orange;
+    
+}
+
+.image-city {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.top-move {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.image-android-link {
+    padding-left: 87px;
+}
+
+.section-step-content {
+    margin-top: 30px;
+}
+.city {
+    margin-bottom: 30px;
+}
+
+
+.review {
+    background-image:linear-gradient(rgba(5, 6, 15, 0.703), rgba(5, 6, 15, 0.703)),  url(img/back-customers.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+        color: white;
+    padding: 30px 0px;
+}
+
+
+blockquote:before {
+    content: "\201C";
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    
+    
+}
+blockquote {
+    font-style: italic;
+    position: relative;
+    line-height: 145%;
+    padding: 7px;
+    
+}
+cite img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+cite {
+    display: block;
+    vertical-align: middle;
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
