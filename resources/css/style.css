@@ -5,6 +5,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+h4{
+    margin: 0px;
+    padding: 0px;
+}
 
 html {
     background-color: #fff;
@@ -420,3 +424,59 @@ cite {
 
 
 
+
+
+
+.plan-box {
+    background-color: white;
+
+   
+}
+
+.plan-header {
+    background-color: #f5f4f4 ;
+    padding: 10px;
+    height: 150px;
+    
+}
+
+.pricing-plan {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: orange;
+    
+}
+
+.plan-high-price {
+    font-size: 200%;
+    font-style: italic;
+}
+
+
+
+.plan-feature {
+    padding: 30px;
+     border-top: .1px solid gray;
+    height: 250px;
+    
+
+    
+}
+
+.plan-image-feature {
+    margin-right: 20px;
+}
+
+.plan-border {
+    border-top: .1px solid gray;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.section-signup h2 {
+    color: black;
+}
+.section-signup {
+    background-color: #edecec;
+}
